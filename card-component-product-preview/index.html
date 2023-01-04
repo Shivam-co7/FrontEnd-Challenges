@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@500;700&family=Pacifico&display=swap" rel="stylesheet">   -->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@45,200,0,0" />
+
+  <title>Product preview card component</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background-color: hsl(30, 38%, 92%);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .container {
+      /* border: 2px solid red; */
+      margin: auto;
+      margin-top: 60px;
+      height: 350px;
+      width: 600px;
+      border-radius: 2%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .pc-image {
+      /* border: 2px solid blue; */
+      border-top-left-radius: 3%;
+      border-bottom-left-radius: 3%;
+      height: 100%;
+      width: 300px;
+    }
+
+    .headtxt,
+    .org-price {
+      font-family: 'Montserrat', sans-serif;
+      color: hsl(228, 12%, 48%);
+      padding-left: 12%;
+      padding-right: 7%;
+      font-size: 14px;
+      /* border: 2px solid green; */
+      padding-top: 10px;
+      line-height: 1.5;
+    }
+
+    .price {
+      display: grid;
+      grid-auto-flow: column;
+      padding-top: 6px;
+      /* border: 2px solid red; */
+    }
+
+    .offer-price {
+      /* border: 2px solid green; */
+      color: hsl(158, 36%, 37%);
+      font-family: Fraunces;
+      width: 100px;
+      font-size: 28px;
+      font-weight: bold;
+      padding-left: 24%;
+    }
+
+    .org-price {
+      /* border: 2px solid red; */
+      padding: 8px 70px 0 30px;
+      font-size: 12px;
+      text-decoration: line-through;
+    }
+
+    div h1 {
+      font-family: Fraunces;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .cart {
+      display: grid;
+      grid-auto-flow: column;
+      background-color: hsl(158, 36%, 37%);
+      color: hsl(30, 38%, 92%);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      border: white;
+      border-radius: 8px;
+      margin: 35px 9% 0;
+      height: 45px;
+      width: 80%;
+      font-weight: 500;
+    }
+
+    button:hover{
+      background-color: hsl(158, 38%, 20%);
+      cursor: pointer;
+    }
+    
+    .mb-img{
+      display: none;
+    }
+
+    @media only screen and (max-width: 375px){
+      
+      .container{
+          display: flex;
+          flex-direction: column;
+        /* margin: 0px; */
+      }
+
+      .pc-image{
+        display: none;
+        margin-top: 10px;
+      }
+
+      .mb-img{
+        display: block;
+        border: 2px solid red;
+        height: 300;
+        width: 600;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div >
+      <img src="images/image-product-desktop.jpg" alt="Product-Image" class="pc-image">
+      <img src="images/image-product-mobile.jpg" alt="Product-Image" class="mb-img">
+    </div>
+
+    <div style="border-top-right-radius: 3%; border-bottom-right-radius: 3%; background-color: white;">
+
+      <P class="headtxt"> P E R F U M E</P>
+
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+
+      <p class="headtxt">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
+        CHANEL.
+      </p>
+
+      <div class="price">
+
+        <div class="offer-price"> $149.99 </div>
+
+        <div class="org-price"> $169.99 </div>
+
+      </div>
+
+      <button class= "cart">
+        <span class= "material-symbols-sharp" style= "margin-top:7px; text-align:right;"> shopping_cart </span>
+        <div style= "margin-top:10px; text-align:left; font-size: 14px;"> Add to Cart </div>
+      </button>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
