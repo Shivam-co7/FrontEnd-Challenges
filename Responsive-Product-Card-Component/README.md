@@ -1,9 +1,8 @@
 # Responsive Product preview card component
 
 ![Design preview for Desktop](./design/desktop-preview.jpg)
-<center>
+
 ![Design preview for Mobile](./design/mobile-design.jpg)
-</center>
 
 ## Welcome! 👋
 
