@@ -6,7 +6,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this Project!
+Thanks! for checking out this Project!
 
 ## Description:
 
