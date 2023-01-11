@@ -6,7 +6,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this Project!
+Thanks! for checking out this Project!
 
 ## Description:
 
@@ -48,7 +48,7 @@ Thanks for checking out this Project!
 
 ## Got feedback!
 
-This project is open for any kind of constructive criticism and feedback! I always looks to improve my work and knowledge. So if you have anything you'd like to mention or you want to ask something, please email Hi! [at] Shivamchtaurvedi268@gmail.com.
+This project is open for any kind of constructive criticism and feedback! I always look forward to improve my skills, work and knowledge. So if you have anything you'd like to mention or you want to ask something, please email Hi! [at] Shivamchtaurvedi268@gmail.com.
 
 Raise any productive or improved merge requests, by pulling the source code it's open source.
 
