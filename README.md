@@ -1,2 +1,2 @@
 # FrontEnd-Projects
- This repo is created to basically store all the frontend projects developed by me.
+ This repo is basically created to store all of the frontend project challenges.
