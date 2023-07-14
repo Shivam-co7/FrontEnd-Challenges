@@ -103,7 +103,7 @@
     display: none;
   }
 
-  @media only screen and (max-width: 375px){
+  @media only screen and (max-width: 400px){
     
     .container{
         display: flex;
@@ -116,10 +116,10 @@
     }
 
     .mb-img{
+      /* border: 2px solid red; */
       display: block;
-      border: 2px solid red;
-      height: 300;
-      width: 600;
+      height: 300px;
+      width: 500px;
     }
 
   }
